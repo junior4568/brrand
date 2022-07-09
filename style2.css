@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(black, white);
+    background-attachment:fixed;
+}
+
+.c-head{
+    font-family: cursive;
+}
+
+.sm\:flex{
+    display: flex;
+}
+.txt-20px{
+    font-size: 20px;
+}  
+
+.sm\:space-b{
+    justify-content: space-between;
+}
+
+.no-u{
+    text-decoration: none;
+}
+
+.sm\:txt-white{
+    color: white;
+}
+
+.sm\:items{
+    align-items: center;
+}
+
+.sm\:log-in{
+    border: none;
+    border-radius: 999px;
+    background-color: white;
+    padding: 5px 16px;
+    color: black;
+}
+
+.fir-img{
+    width: 75%;
+    border: solid 2.5px ;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.sm\:w-auto{
+    margin: auto;
+    max-width: 300px;
+}
+@media (min-width:860px) {
+    .cd {
+        background-color: white;
+        background-image: linear-gradient(black,  whitesmoke);
+        background-attachment: fixed;
+      }
+      
+      .flex{
+          display: flex;
+      }
+      
+      .block{
+          display: block;
+      }
+      
+      .inline{
+          display: inline;
+      }
+      
+      .txt-white{
+          color: white;
+      }
+      
+      .absolute{
+          position: absolute;
+      }
+      
+      .relative{
+          position: relative;
+      }
+      
+      .txt-25px{
+          font-size: 25px;
+      }
+
+      .c-head{
+        font-family: cursive;
+      }
+      
+      .no-u{
+          text-decoration: none;
+      }
+      
+      .log-in{
+          border: none;
+          border-radius: 999px;
+          background-color: white;
+          padding: 5px 16px;
+          color: black;
+      }
+      
+      .space-b{
+          justify-content: space-between;
+      }
+      
+      .items{
+          align-items: center;
+      }
+      
+      .nav-home{
+          padding:10px 20px;
+          top: -20px;
+      }
+      
+      .tst-div{
+          max-width: 300px;
+          background-color: aqua;
+          height: 80px;
+          margin: auto;
+      }
+      
+      .p-list{
+          margin-left: 100px;
+          max-width: 400px;
+      }
+      
+      .fir-img{
+          width: 30%;
+          height: 300px;
+          border: solid 2.5px ;
+          border-radius: 20px;
+          padding: 10px;
+      }
+
+      .txt-orred{
+        color: darkkhaki;
+      }
+}
